@@ -3,7 +3,6 @@
 .ruff_cache/
 __pycache__/
 .idea/
-.vscode/
 
 # Environments.
 .venv*/
@@ -14,6 +13,7 @@ conda_env*/
 *.py[cod]
 
 # Distribution/Packaging.
+temp_auto_push.bat
 /build/
 /dist/
 *.egg-info/
@@ -29,3 +29,5 @@ desktop.ini
 /checkpoints/*
 !/checkpoints/*.yaml
 /outputs/
+.gitignore
+temp_interactive_push.bat
